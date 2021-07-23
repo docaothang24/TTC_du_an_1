@@ -181,8 +181,8 @@ const styles = StyleSheet.create({
         padding: 2,
     },
     edit_profile:{
-        width: 20,
-        height: 20,
+        width: scale(20),
+        height: scale(20),
         position: 'absolute',
         top: 15,
         right: 7
@@ -192,8 +192,8 @@ const styles = StyleSheet.create({
         height:'100%',
     },
     avatar:{
-        width: 75,
-        height: 75,
+        width: scale(75),
+        height: scale(75),
         marginBottom: 5
     },
     txtAvatar:{
@@ -274,8 +274,8 @@ const styles = StyleSheet.create({
         marginBottom: 10,
     },
     ic_gold:{
-        width: 20,
-        height: 20,
+        width: scale(20),
+        height: scale(20),
         flexDirection: 'row',
     },
     txtGold:{
@@ -284,7 +284,7 @@ const styles = StyleSheet.create({
     pointGold:{
         backgroundColor: '#888888',
         width: scale(100),
-        height: 25,
+        height: scale(25),
         alignItems: 'center',
         justifyContent: 'center',
         borderRadius: 5
@@ -347,12 +347,12 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
     },
     ic_next:{
-        width: 20,
-        height: 20
+        width: scale(20),
+        height: scale(20)
     },
     txtHanhLy:{
         width: width- 72,
-        height: 30,
+        height: scale(30),
         alignItems: 'center',
         justifyContent: 'center',
     },
