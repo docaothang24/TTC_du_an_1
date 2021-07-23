@@ -29,6 +29,7 @@ const Screen1 = () => {
                     <Image style={styles.ic_profile_off} source={require('./assets/ic_profile_off.png')}/>
                 </TouchableOpacity>
             </View>
+            <ScrollView>
             <ImageBackground
             imageStyle={{borderRadius: 30}}
              style={styles.group2} resizeMode="cover" source={require('./assets/bg_profile.png')}>
@@ -128,6 +129,7 @@ const Screen1 = () => {
                     </TouchableOpacity>
                 </View>
             </View>
+            </ScrollView>
         </View>
     )
 }
