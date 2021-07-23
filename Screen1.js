@@ -89,22 +89,22 @@ const Screen1 = () => {
                 </View>
             </ImageBackground>
             <View style={styles.group5}>
-                <View style={styles.group5_1}>
+                <TouchableOpacity style={styles.group5_1}>
                     <Image style={styles.ic_recharge} source={require('./assets/ic_recharge.png')}/>
                     <Text style={styles.txtNapTien}>Nạp tiền</Text>
-                </View>
-                <View style={styles.group5_1}>
+                </TouchableOpacity>
+                <TouchableOpacity style={styles.group5_1}>
                     <Image style={styles.ic_recharge} source={require('./assets/ic_without.png')}/>
                     <Text style={styles.txtNapTien}>Rút tiền</Text>
-                </View>
-                <View style={styles.group5_1}>
+                </TouchableOpacity>
+                <TouchableOpacity style={styles.group5_1}>
                     <Image style={styles.ic_recharge} source={require('./assets/ic_shopping.png')}/>
                     <Text style={styles.txtNapTien}>Mua Sắm</Text>
-                </View>
-                <View style={styles.group5_1}>
+                </TouchableOpacity>
+                <TouchableOpacity style={styles.group5_1}>
                     <Image style={styles.ic_recharge} source={require('./assets/ic_VIP_level.png')}/>
                     <Text style={styles.txtNapTien}>Cấp VIP</Text>
-                </View>
+                </TouchableOpacity>
             </View>
             <View style={styles.group6}>
                 <View style={styles.hanhLy}>
@@ -149,7 +149,7 @@ const styles = StyleSheet.create({
         height: height/15* 0.7,
     },
     me:{
-        fontSize: scale(20),
+        fontSize: scale(18),
         color: 'blue',
         fontWeight: 'bold',
         marginRight: 15
