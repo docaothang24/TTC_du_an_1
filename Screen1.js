@@ -61,6 +61,7 @@ const Screen1 = () => {
                 </View>
             </View>
             <ImageBackground 
+            imageStyle={{borderRadius: 10}}
             resizeMode='cover'
             source={require('./assets/bg_account_balance.png')}
             style={styles.group4}>
